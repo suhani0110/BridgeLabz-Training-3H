@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ATMtransaction {
   public static void main(String[] args) {
-    git@SuppressWarnings("resource")
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] arr = new int[n];
